@@ -3,7 +3,7 @@
   "bin": {
     "jquinten": "./index.mjs"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A contact card shareable via CLI! 🎉",
   "main": "index.js",
   "repository": {

@@ -1,6 +1,6 @@
 # cli-contact-card
 
-Hey there, so this repo basically contains a stylised contact card to npm registry, so that you can run it direclty from your CLI using
+Hey there, so this repo basically contains a [stylised contact card](https://www.npmjs.com/package/jquinten) to the npm registry, so that you can run it direclty from your CLI using
 
 ```
 npx jquinten
