@@ -1,0 +1,30 @@
+{
+  "name": "jquinten",
+  "bin": {
+    "jquinten": "./index.mjs"
+  },
+  "version": "1.0.0",
+  "description": "A contact card shareable via CLI! 🎉",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joranquinten/cli-contact-card.git"
+  },
+  "keywords": [
+    "joran",
+    "joran quinten",
+    "quinten",
+    "jquinten"
+  ],
+  "author": "Joran Quinten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joranquinten/cli-contact-card/issues"
+  },
+  "homepage": "https://github.com/joranquinten/cli-contact-card#readme",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.1",
+    "ora": "^6.1.0"
+  }
+}
