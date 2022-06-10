@@ -19,7 +19,7 @@ const throbber = ora({
 
 const boxenOptions = {
     padding: 2,
-    width: 68,
+    width: 70,
     title: chalk.hex("#50FA7B").bgHex('#282A36')("🚀 Joran Quinten 🦄"),
     titleAlignment: "left",
     borderStyle: "round",
@@ -31,9 +31,10 @@ const intro = chalk.hex("#8BE9FE").bold(
     "👋 Hey there! Nice to meetcha!",
   );
 
-  const description = chalk.hex("#F8F8F2")(
-    "I'm Joran. I'm a software developer from the Eindhoven area in the Netherlands (Silicon Veghel). I do a bit of writing, speaking, freelancing and contribute to OSS.",
-  );
+  const description = `${chalk.hex("#F8F8F2")("I'm Joran, a software developer from the Eindhoven area")}
+${chalk.hex("#F8F8F2")("in the Netherlands (Silicon Veghel).\n")}
+${chalk.hex("#F8F8F2")("I do a bit of writing, speaking, freelancing and")}
+${chalk.hex("#F8F8F2")("contribute to OSS.")}`;
 
   const connect = chalk.hex("#FF79C6").bold("Come find me on the interwebs!");
   
