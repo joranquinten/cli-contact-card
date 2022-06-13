@@ -44,7 +44,7 @@ ${chalk.hex("#F8F8F2")("contribute to OSS.")}`;
     { name: chalk.hex("#F8F8F2").bgHex("#1DA1F2")("Twitter"), url: "   https://twitter.com/joranquinten" },
     { name: chalk.hex("#F8F8F2").bgHex("#6e5494")("GitHub"),  url: "    https://github.com/joranquinten" },
     { name: chalk.hex("#F8F8F2").bgHex("#000")("DEV.to"),     url: "    https://dev.to/jquinten" },
-    // { name: chalk.hex("#fff").bgHex("#582be8")("Polywork"), url: "  https://polywork.com/joranquinten" },
+    { name: chalk.hex("#F8F8F2").bgHex("#582be8")("Polywork"), url: "  https://polywork.com/jquinten" },
     { name: chalk.hex("#F8F8F2").bgHex("#0a66c2")("LinkedIn"), url: "  https://linkedin.com/in/joranquinten/" },
   ];
   
