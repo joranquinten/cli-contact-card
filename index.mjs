@@ -19,7 +19,7 @@ const throbber = ora({
 
 const boxenOptions = {
     padding: 2,
-    width: 70,
+    width: 76,
     title: chalk.hex("#50FA7B").bgHex('#282A36')("🚀 Joran Quinten 🦄"),
     titleAlignment: "left",
     borderStyle: "round",
@@ -42,10 +42,12 @@ ${chalk.hex("#F8F8F2")("contribute to OSS.")}`;
     { name: chalk.hex("#F8F8F2")("Website"), url: "   https://joranquinten.nl" },
     { name: chalk.hex("#F8F8F2")("Email"), url: "     hello@joranquinten.nl" },
     { name: chalk.hex("#F8F8F2").bgHex("#1DA1F2")("Twitter"), url: "   https://twitter.com/joranquinten" },
+    { name: chalk.hex("#F8F8F2").bgHex("#5D4BE0")("Mastodon"), url: "  https://mastodon.social/@joranquinten" },
+    { name: chalk.hex("#F8F8F2").bgHex("#0184FF")("BlueSky"), url: "   https://bsky.app/profile/joranquinten.bsky.social" },
+    { name: chalk.hex("#F8F8F2").bgHex("#0a66c2")("LinkedIn"), url: "  https://linkedin.com/in/joranquinten/" },
     { name: chalk.hex("#F8F8F2").bgHex("#6e5494")("GitHub"),  url: "    https://github.com/joranquinten" },
     { name: chalk.hex("#F8F8F2").bgHex("#000")("DEV.to"),     url: "    https://dev.to/jquinten" },
     { name: chalk.hex("#F8F8F2").bgHex("#582be8")("Polywork"), url: "  https://polywork.com/jquinten" },
-    { name: chalk.hex("#F8F8F2").bgHex("#0a66c2")("LinkedIn"), url: "  https://linkedin.com/in/joranquinten/" },
   ];
   
   const linkList = links.map((link) => `${link.name} ${chalk.hex("#F1FA8C")(link.url)}`).join("\n");
