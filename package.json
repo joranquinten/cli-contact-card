@@ -1,7 +1,7 @@
 {
   "name": "jquinten",
   "bin": {
-    "jquinten": "./index.mjs"
+    "jquinten": "index.mjs"
   },
   "version": "1.4.0",
   "description": "A contact card shareable via CLI! 🎉",
