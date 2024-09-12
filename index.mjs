@@ -31,10 +31,10 @@ const intro = chalk.hex("#8BE9FE").bold(
     "👋 Hey there! Nice to meetcha!",
   );
 
-  const description = `${chalk.hex("#F8F8F2")("I'm Joran, a software developer from the Eindhoven area")}
-${chalk.hex("#F8F8F2")("in the Netherlands (Silicon Veghel).\n")}
-${chalk.hex("#F8F8F2")("I do a bit of writing, speaking, freelancing and")}
-${chalk.hex("#F8F8F2")("contribute to OSS.")}`;
+  const description = `${chalk.hex("#F8F8F2")("I'm Joran, a engineering manager / software developer")}
+${chalk.hex("#F8F8F2")("from the Eindhoven area, in the Netherlands.\n")}
+${chalk.hex("#F8F8F2")("I do a bit of writing, speaking, freelancing and coaching.")}
+${chalk.hex("#F8F8F2")("Active committee member for JSNation.")}`;
 
   const connect = chalk.hex("#FF79C6").bold("Come find me on the interwebs!");
   
