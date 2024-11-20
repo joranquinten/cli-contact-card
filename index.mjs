@@ -41,7 +41,7 @@ ${chalk.hex("#F8F8F2")("Active committee member for JSNation.")}`;
   const links = [
     { name: chalk.hex("#F8F8F2")("Website"), url: "   https://joranquinten.nl" },
     { name: chalk.hex("#F8F8F2")("Email"), url: "     hello@joranquinten.nl" },
-    { name: chalk.hex("#F8F8F2").bgHex("#0184FF")("BlueSky"), url: "   https://bsky.app/profile/joranquinten.bsky.social" },
+    { name: chalk.hex("#F8F8F2").bgHex("#0184FF")("BlueSky"), url: "   https://bsky.app/profile/joranquinten.nl" },
     { name: chalk.hex("#F8F8F2").bgHex("#0a66c2")("LinkedIn"), url: "  https://linkedin.com/in/joranquinten/" },
     { name: chalk.hex("#F8F8F2").bgHex("#6e5494")("GitHub"),  url: "    https://github.com/joranquinten" },
     { name: chalk.hex("#F8F8F2").bgHex("#000")("DEV.to"),     url: "    https://dev.to/jquinten" },
